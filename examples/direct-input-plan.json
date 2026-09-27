@@ -1,0 +1,247 @@
+{
+  "title": "가상 예시 · 단계별 추진계획",
+  "purpose": "plan",
+  "audience": "기관장",
+  "department": "업무지원팀",
+  "report_date": "2026-09-27",
+  "message": "120필지의 현장조사를 계획하고 추진방향을 보고합니다.",
+  "decision": "관계부서 협조 요청",
+  "target_pages": 3,
+  "template_id": "public",
+  "sources": [
+    {
+      "id": "abbb1948064448e4a5cc47483ad2674d",
+      "name": "직접 작성 · 보고요지",
+      "role": "evidence",
+      "sensitivity": "internal",
+      "text": "120필지의 현장조사를 계획하고 추진방향을 보고합니다.",
+      "reference": "계획서 작성창에 사용자가 직접 입력한 내용",
+      "as_of": "2026-09-27",
+      "confirmed": false
+    },
+    {
+      "id": "68d1a4db12da4d01bb3440b135586dc4",
+      "name": "직접 작성 · 추진배경 및 필요성",
+      "role": "evidence",
+      "sensitivity": "internal",
+      "text": "현장자료 최신화가 필요합니다.\n기한 내 조사 완료가 필요합니다.",
+      "reference": "계획서 작성창에 사용자가 직접 입력한 내용",
+      "as_of": "2026-09-27",
+      "confirmed": false
+    },
+    {
+      "id": "119db4fd9dd14a7eb6c95874eaa18da8",
+      "name": "직접 작성 · 단계별 추진 절차",
+      "role": "evidence",
+      "sensitivity": "internal",
+      "text": "대상 선정\n현장 조사\n성과 검토\n결과 보고",
+      "reference": "계획서 작성창에 사용자가 직접 입력한 내용",
+      "as_of": "2026-09-27",
+      "confirmed": false
+    },
+    {
+      "id": "81510a18029f4d1d9b687f213e87d0b8",
+      "name": "직접 작성 · 추진일정",
+      "role": "evidence",
+      "sensitivity": "internal",
+      "text": "10월 | 현장 조사 | 조사팀\n11월 | 성과 검토 | 검토팀",
+      "reference": "계획서 작성창에 사용자가 직접 입력한 내용",
+      "as_of": "2026-09-27",
+      "confirmed": false
+    },
+    {
+      "id": "ed86a86e910e4536b017820cbbbab2cb",
+      "name": "직접 작성 · 소요예산",
+      "role": "evidence",
+      "sensitivity": "internal",
+      "text": "현장 조사 | 600만원 | 견적 기준",
+      "reference": "계획서 작성창에 사용자가 직접 입력한 내용",
+      "as_of": "2026-09-27",
+      "confirmed": false
+    },
+    {
+      "id": "441f12f970bc4a4b9941cf2010eb02ac",
+      "name": "직접 작성 · 기대효과",
+      "role": "evidence",
+      "sensitivity": "internal",
+      "text": "자료 정확도를 높입니다.",
+      "reference": "계획서 작성창에 사용자가 직접 입력한 내용",
+      "as_of": "2026-09-27",
+      "confirmed": false
+    },
+    {
+      "id": "87f7c6c31c234982b70fbffd1dab7dc9",
+      "name": "직접 작성 · 행정사항 및 협조 요청",
+      "role": "evidence",
+      "sensitivity": "internal",
+      "text": "관계부서 협조 요청",
+      "reference": "계획서 작성창에 사용자가 직접 입력한 내용",
+      "as_of": "2026-09-27",
+      "confirmed": false
+    }
+  ],
+  "blocks": [
+    {
+      "id": "b308618aa70c4904a99c8973c45e13b6",
+      "kind": "summary",
+      "title": "보고요지",
+      "text": "120필지의 현장조사를 계획하고 추진방향을 보고합니다.",
+      "items": [],
+      "columns": [],
+      "rows": [],
+      "labels": [],
+      "values": [],
+      "unit": "",
+      "as_of": "",
+      "source_ids": [
+        "abbb1948064448e4a5cc47483ad2674d"
+      ],
+      "locked": false,
+      "required": false
+    },
+    {
+      "id": "fb526fcc9fb1438d8df640e14a099904",
+      "kind": "bullets",
+      "title": "추진배경 및 필요성",
+      "text": "",
+      "items": [
+        "현장자료 최신화가 필요합니다.",
+        "기한 내 조사 완료가 필요합니다."
+      ],
+      "columns": [],
+      "rows": [],
+      "labels": [],
+      "values": [],
+      "unit": "",
+      "as_of": "",
+      "source_ids": [
+        "68d1a4db12da4d01bb3440b135586dc4"
+      ],
+      "locked": false,
+      "required": false
+    },
+    {
+      "id": "5f4f2a5b2bea4b61919b53e1b7ca7e62",
+      "kind": "process",
+      "title": "단계별 추진 절차",
+      "text": "",
+      "items": [
+        "대상 선정",
+        "현장 조사",
+        "성과 검토",
+        "결과 보고"
+      ],
+      "columns": [],
+      "rows": [],
+      "labels": [],
+      "values": [],
+      "unit": "",
+      "as_of": "",
+      "source_ids": [
+        "119db4fd9dd14a7eb6c95874eaa18da8"
+      ],
+      "locked": false,
+      "required": false
+    },
+    {
+      "id": "bb734bb95ee047eaad2dd5b589aa653f",
+      "kind": "timeline",
+      "title": "추진일정",
+      "text": "",
+      "items": [],
+      "columns": [
+        "시기",
+        "추진내용",
+        "담당"
+      ],
+      "rows": [
+        [
+          "10월",
+          "현장 조사",
+          "조사팀"
+        ],
+        [
+          "11월",
+          "성과 검토",
+          "검토팀"
+        ]
+      ],
+      "labels": [],
+      "values": [],
+      "unit": "",
+      "as_of": "",
+      "source_ids": [
+        "81510a18029f4d1d9b687f213e87d0b8"
+      ],
+      "locked": false,
+      "required": false
+    },
+    {
+      "id": "dc48927245744535ad54f379c392ab62",
+      "kind": "table",
+      "title": "소요예산",
+      "text": "",
+      "items": [],
+      "columns": [
+        "항목",
+        "금액",
+        "산출근거"
+      ],
+      "rows": [
+        [
+          "현장 조사",
+          "600만원",
+          "견적 기준"
+        ]
+      ],
+      "labels": [],
+      "values": [],
+      "unit": "",
+      "as_of": "",
+      "source_ids": [
+        "ed86a86e910e4536b017820cbbbab2cb"
+      ],
+      "locked": false,
+      "required": false
+    },
+    {
+      "id": "adc7521681b84aa198482676944f4850",
+      "kind": "bullets",
+      "title": "기대효과",
+      "text": "",
+      "items": [
+        "자료 정확도를 높입니다."
+      ],
+      "columns": [],
+      "rows": [],
+      "labels": [],
+      "values": [],
+      "unit": "",
+      "as_of": "",
+      "source_ids": [
+        "441f12f970bc4a4b9941cf2010eb02ac"
+      ],
+      "locked": false,
+      "required": false
+    },
+    {
+      "id": "09859af6496e4ea082855eac5c2be4d7",
+      "kind": "request",
+      "title": "행정사항 및 협조 요청",
+      "text": "관계부서 협조 요청",
+      "items": [],
+      "columns": [],
+      "rows": [],
+      "labels": [],
+      "values": [],
+      "unit": "",
+      "as_of": "",
+      "source_ids": [
+        "87f7c6c31c234982b70fbffd1dab7dc9"
+      ],
+      "locked": false,
+      "required": false
+    }
+  ],
+  "demo": false
+}

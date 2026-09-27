@@ -1,0 +1,197 @@
+{
+  "title": "농지 드론촬영 사업 추진계획",
+  "purpose": "plan",
+  "audience": "기관장",
+  "department": "농지관리팀",
+  "report_date": "2026-09-27",
+  "message": "공동 촬영과 단계별 검수로 조사기한 준수",
+  "decision": "시범 촬영 추진방향 승인 및 관계부서 협조",
+  "target_pages": 2,
+  "template_id": "public",
+  "sources": [
+    {
+      "id": "sample-data",
+      "name": "예시 사업 기획자료 (가상 데이터)",
+      "role": "evidence",
+      "sensitivity": "public",
+      "text": "시범 촬영 대상은 120필지이며, 현재 84필지를 완료하였다. 조사기한 준수를 위해 공동 촬영과 검수를 추진한다. 예산은 촬영 600만원, 영상 제작 250만원, 검수 150만원이다. 대상 선정, 현장 촬영, 영상 제작, 성과 검토, 납품의 순서로 추진한다. 10월에는 대상 선정과 촬영, 11월에는 영상 제작과 납품을 진행한다.",
+      "reference": "프로그램 사용법을 위한 가상 예시 · 실제 업무에 사용 금지",
+      "as_of": "2026-09",
+      "confirmed": true
+    }
+  ],
+  "blocks": [
+    {
+      "id": "55eb3d6fed2e450c98e482b9d8ee1046",
+      "kind": "summary",
+      "title": "보고 요지",
+      "text": "공동 촬영과 단계별 검수를 통해 조사기한을 준수하고, 시범 촬영의 추진방향을 확정하고자 합니다.",
+      "items": [],
+      "columns": [],
+      "rows": [],
+      "labels": [],
+      "values": [],
+      "unit": "",
+      "as_of": "",
+      "source_ids": [
+        "sample-data"
+      ],
+      "locked": false,
+      "required": false
+    },
+    {
+      "id": "b47109a810274318a515ce2a89b73fc0",
+      "kind": "bullets",
+      "title": "추진 배경",
+      "text": "",
+      "items": [
+        "시범 촬영 대상 120필지 중 84필지 촬영 완료",
+        "공동 촬영과 검수로 남은 조사일정 관리"
+      ],
+      "columns": [],
+      "rows": [],
+      "labels": [],
+      "values": [],
+      "unit": "",
+      "as_of": "",
+      "source_ids": [
+        "sample-data"
+      ],
+      "locked": false,
+      "required": false
+    },
+    {
+      "id": "3a38aed8a13344c796d336c49e655152",
+      "kind": "process",
+      "title": "단계별 추진절차",
+      "text": "",
+      "items": [
+        "대상 선정",
+        "현장 촬영",
+        "영상 제작",
+        "성과 검토",
+        "납품"
+      ],
+      "columns": [],
+      "rows": [],
+      "labels": [],
+      "values": [],
+      "unit": "",
+      "as_of": "",
+      "source_ids": [
+        "sample-data"
+      ],
+      "locked": false,
+      "required": false
+    },
+    {
+      "id": "2f75233c57cf4efba89f46b555860ec0",
+      "kind": "table",
+      "title": "소요예산",
+      "text": "",
+      "items": [],
+      "columns": [
+        "항목",
+        "금액 (만원)",
+        "내용"
+      ],
+      "rows": [
+        [
+          "촬영",
+          "600",
+          "현장 촬영"
+        ],
+        [
+          "영상 제작",
+          "250",
+          "영상 제작"
+        ],
+        [
+          "검수",
+          "150",
+          "성과 검토"
+        ]
+      ],
+      "labels": [],
+      "values": [],
+      "unit": "",
+      "as_of": "",
+      "source_ids": [
+        "sample-data"
+      ],
+      "locked": true,
+      "required": true
+    },
+    {
+      "id": "4e0700e3e39841ec9abe82a998913c28",
+      "kind": "chart",
+      "title": "시범 촬영 현황",
+      "text": "",
+      "items": [],
+      "columns": [],
+      "rows": [],
+      "labels": [
+        "대상",
+        "완료"
+      ],
+      "values": [
+        120.0,
+        84.0
+      ],
+      "unit": "필지",
+      "as_of": "2026-09",
+      "source_ids": [
+        "sample-data"
+      ],
+      "locked": false,
+      "required": false
+    },
+    {
+      "id": "b49a7f1ccac94894813488c4bd6aaa07",
+      "kind": "timeline",
+      "title": "향후 일정",
+      "text": "",
+      "items": [],
+      "columns": [
+        "시기",
+        "주요 내용"
+      ],
+      "rows": [
+        [
+          "10월",
+          "대상 선정 · 현장 촬영"
+        ],
+        [
+          "11월",
+          "영상 제작 · 납품"
+        ]
+      ],
+      "labels": [],
+      "values": [],
+      "unit": "",
+      "as_of": "",
+      "source_ids": [
+        "sample-data"
+      ],
+      "locked": false,
+      "required": false
+    },
+    {
+      "id": "f4986f8bd8924ec2b7f85ca1f18d6953",
+      "kind": "request",
+      "title": "검토 요청사항",
+      "text": "시범 촬영 추진방향 승인 및 관계부서 협조",
+      "items": [],
+      "columns": [],
+      "rows": [],
+      "labels": [],
+      "values": [],
+      "unit": "",
+      "as_of": "",
+      "source_ids": [],
+      "locked": false,
+      "required": true
+    }
+  ],
+  "demo": true
+}

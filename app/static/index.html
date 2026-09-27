@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ko">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>보고서 공방 · HWPX Studio</title><link rel="stylesheet" href="/style.css"><script src="/app.js" defer></script></head>
+<body>
+<header class="appbar">
+ <a class="brand" href="/"><span class="brandmark">문</span><div>보고서 공방<small>HWPX REPORT STUDIO</small></div></a>
+ <div class="workspace-select"><label for="reportSelect" class="sr-only">저장된 보고서</label><select id="reportSelect"><option value="">보고서 선택</option></select><span id="saveState" class="quiet">내 PC에 저장</span></div>
+ <div class="header-actions"><span class="local-badge"><i></i> 로컬 작업공간</span><button id="newPlan" class="primary">내용 입력 → 추진계획서</button><button id="newReport">＋ 새 보고서</button></div>
+</header>
+<main>
+ <div class="projectbar"><div><span class="eyebrow">WORKSPACE / 보고서 작성</span><h1 id="projectTitle">근거에서 시작하는 보고서</h1></div><div class="project-actions"><span id="stageBadge" class="badge">시작하기</span><button id="editMeta" disabled>보고 설정</button><button id="exportHwp" disabled hidden>↓ 한글 2014용 HWP</button><button id="exportHwpx" class="primary" disabled>↓ HWPX 내보내기</button></div></div>
+ <div id="compatibilityNotice" class="compatibility-notice" hidden></div><nav class="workflow" aria-label="작성 단계"><span><b>01</b> 자료 준비</span><span><b>02</b> 구성·편집</span><span><b>03</b> 근거 검토</span><span><b>04</b> 승인·내보내기</span><small>외부 전송 없이 시작합니다</small></nav>
+ <div class="studio">
+  <aside class="left-panel panel"><div class="tabs" id="leftTabs"><button data-tab="outline" class="active">문서 구성</button><button data-tab="sources">근거자료</button><button data-tab="templates">양식</button></div><div id="leftContent" class="panel-content"></div><div class="panel-bottom"><button id="openDemo">예시 보고서 열기 ↗</button><button id="importJson">JSON 가져오기</button><input id="jsonFile" type="file" accept=".json" hidden></div></aside>
+  <section class="canvas"><div class="canvas-toolbar"><span><i class="dot"></i> <strong>문서 미리보기</strong> <span class="quiet">예상 배치</span></span><span id="pageCount">A4</span></div><div id="paperArea"><div class="welcome"><span class="welcome-icon">▤</span><p class="eyebrow">내용에 집중하세요</p><h2>보고 목적에 맞게,<br>편집 가능한 한글 문서로.</h2><p>근거자료를 연결하고 필요한 부품을 조립하세요.<br>표와 절차도까지 HWPX에서 다시 편집할 수 있습니다.</p><button id="welcomeNew" class="primary">내용 입력으로 계획서 만들기 →</button><button id="welcomeDemo" class="text-button">예시로 둘러보기</button><div class="welcome-features"><span>01 목적별 구성</span><span>02 근거 검증</span><span>03 한글 편집</span></div></div></div></section>
+  <aside class="right-panel panel"><div class="tabs" id="rightTabs"><button data-tab="edit" class="active">부품 편집</button><button data-tab="review">검토</button><button data-tab="history">이력</button></div><div id="rightContent" class="panel-content"><div class="empty"><span>↖</span><h3>보고서의 한 부분에 집중</h3><p>미리보기에서 부품을 선택하면<br>내용과 자료 연결을 수정할 수 있습니다.</p></div></div></aside>
+ </div>
+</main>
+<footer><span>HWPX Studio <b>0.2</b></span><span>본문 · 표 · 단계별 절차표 편집 가능 / HWPX 호환형 출력</span><span id="footerStatus">자료는 이 PC에 보관됩니다</span></footer>
+<div id="toast" role="status" aria-live="polite"></div><div id="busy" hidden><span class="spinner"></span><span id="busyText">처리 중입니다…</span></div>
+<dialog id="modal"><div class="modal-top"><h2 id="modalTitle"></h2><button id="closeModal" aria-label="닫기">×</button></div><div id="modalBody"></div></dialog>
+</body></html>

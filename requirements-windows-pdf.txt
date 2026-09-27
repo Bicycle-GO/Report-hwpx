@@ -1,0 +1,3 @@
+# Optional: a locally installed, licensed Hancom Hangul is required.
+pywin32>=310,<400; sys_platform == "win32"
+
