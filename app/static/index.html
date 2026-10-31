@@ -5,7 +5,7 @@
 <header class="appbar">
  <a class="brand" href="/"><span class="brandmark">문</span><div>보고서 공방<small>HWPX REPORT STUDIO</small></div></a>
  <div class="workspace-select"><label for="reportSelect" class="sr-only">저장된 보고서</label><select id="reportSelect"><option value="">보고서 선택</option></select><span id="saveState" class="quiet">내 PC에 저장</span></div>
- <div class="header-actions"><span class="local-badge"><i></i> 로컬 작업공간</span><button id="newPlan" class="primary">내용 입력 → 추진계획서</button><button id="newReport">＋ 새 보고서</button></div>
+ <div class="header-actions"><span class="local-badge"><i></i> 로컬 작업공간</span><a href="/preserve.html">기존 HWPX 수정</a><button id="newPlan" class="primary">내용 입력 → 추진계획서</button><button id="newReport">＋ 새 보고서</button></div>
 </header>
 <main>
  <div class="projectbar"><div><span class="eyebrow">WORKSPACE / 보고서 작성</span><h1 id="projectTitle">근거에서 시작하는 보고서</h1></div><div class="project-actions"><span id="stageBadge" class="badge">시작하기</span><button id="editMeta" disabled>보고 설정</button><button id="exportHwp" disabled hidden>↓ 한글 2014용 HWP</button><button id="exportHwpx" class="primary" disabled>↓ HWPX 내보내기</button></div></div>
@@ -16,7 +16,7 @@
   <aside class="right-panel panel"><div class="tabs" id="rightTabs"><button data-tab="edit" class="active">부품 편집</button><button data-tab="review">검토</button><button data-tab="history">이력</button></div><div id="rightContent" class="panel-content"><div class="empty"><span>↖</span><h3>보고서의 한 부분에 집중</h3><p>미리보기에서 부품을 선택하면<br>내용과 자료 연결을 수정할 수 있습니다.</p></div></div></aside>
  </div>
 </main>
-<footer><span>HWPX Studio <b>0.2</b></span><span>본문 · 표 · 단계별 절차표 편집 가능 / HWPX 호환형 출력</span><span id="footerStatus">자료는 이 PC에 보관됩니다</span></footer>
+<footer><span>HWPX Studio <b>0.3</b></span><span>본문 · 표 · 단계별 절차표 편집 가능 / HWPX 호환형 출력</span><span id="footerStatus">자료는 이 PC에 보관됩니다</span></footer>
 <div id="toast" role="status" aria-live="polite"></div><div id="busy" hidden><span class="spinner"></span><span id="busyText">처리 중입니다…</span></div>
 <dialog id="modal"><div class="modal-top"><h2 id="modalTitle"></h2><button id="closeModal" aria-label="닫기">×</button></div><div id="modalBody"></div></dialog>
 </body></html>
