@@ -23,6 +23,8 @@ from .models import BUILTINS, KINDS, PURPOSES, Model, Profile, Report, uid
 from .pdf import available as pdf_available, convert
 from .planner import demo, plan
 from .plan_input import PlanInput, from_input
+from .preserve import PreserveError
+from .preserve_api import router as preserve_router
 from .templates import MAX_UPLOAD, extract_text, inspect_template
 from .validation import validate
 
@@ -31,7 +33,7 @@ async def lifespan(app):
     storage.init()
     yield
 
-app=FastAPI(title="보고서 공방 · HWPX Studio",version="0.2.0",lifespan=lifespan)
+app=FastAPI(title="보고서 공방 · HWPX Studio",version="0.3.0",lifespan=lifespan)
 app.add_middleware(TrustedHostMiddleware,allowed_hosts=["127.0.0.1","localhost","[::1]","testserver"])
 
 @app.middleware("http")
@@ -55,6 +57,10 @@ async def local_boundary(request: Request, call_next):
 @app.exception_handler(ValueError)
 async def bad_value(request,exc):
     return JSONResponse({"detail":str(exc)},status_code=400)
+
+@app.exception_handler(PreserveError)
+async def preserve_error(request,exc):
+    return JSONResponse({"detail":str(exc),"code":exc.code},status_code=400)
 
 @app.exception_handler(KeyError)
 async def missing(request,exc):
@@ -284,5 +290,6 @@ def export(report_id:str,body:ExportRequest):
         folder.cleanup()
         raise
 
+app.include_router(preserve_router)
 app.mount("/",StaticFiles(directory=Path(__file__).parent/"static",html=True),name="studio")
 
